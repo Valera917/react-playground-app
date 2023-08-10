@@ -28,7 +28,7 @@ const PostForm = ({create}) => {
                 placeholder="Descr"
                 onChange={e => setPost({...post, body: e.target.value})}
             />
-            <MyButton onClick={addNewPost}>Add Post</MyButton>
+            <MyButton style={{margin: '15px 0 0 0'}} onClick={addNewPost}>Add Post</MyButton>
         </form>
     );
 };
